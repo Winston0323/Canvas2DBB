@@ -1,0 +1,54 @@
+# This .gitignore file is specifically designed for Unity3D projects.
+
+# === General Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is ignored
+*.pidb.meta
+*.pidb
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage
+
+# === Visual Studio ===
+.vs/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userosscache
+*.sln.docstates
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Other ===
+*.swp
+*.tmp
+*.temp
+*.log
+
+# === JetBrains Rider ===
+.idea/
+*.sublime-workspace
+
+# === Collaborate ===
+.collab/
+
+# === Crashlytics ===
+crashlytics-build.properties
+
+# === Unity Cache Server ===
+cache/
